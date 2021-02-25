@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewbox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" id="path_1" />
+    <path d="M3.42857 6.85714C5.32212 6.85714 6.85714 5.32212 6.85714 3.42857C6.85714 1.53502 5.32212 0 3.42857 0C1.53502 0 0 1.53502 0 3.42857C0 5.32212 1.53502 6.85714 3.42857 6.85714Z" transform="translate(4.571533 4.5714264)" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="cd">
+    <g id="Oval-17">
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="#ADAFB2" stroke-width="2.2857144" />
+      </g>
+    </g>
+    <g id="Oval-17">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#ADAFB2" stroke-width="3.4285715" />
+      </g>
+    </g>
+  </g>
+</svg>

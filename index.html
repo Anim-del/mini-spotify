@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<title>Music</title>
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<div class="main__sidebar">
+				<h4 class="title__sidebar">Main</h4>
+				<hr>
+				<div class="browse link">
+					<img src="img/albums.svg" alt="" class="img-link">
+					<a href="#">Browse</a>
+				</div>
+				<div class="activity link">
+					<img src="img/menu.svg" alt="" class="img-link">
+					<a href="#">Activity</a>
+				</div>
+				<div class="radio link">
+					<img src="img/radio.svg" alt="" class="img-link">
+					<a href="#">Radio</a>
+				</div>
+			</div>
+
+			<div class="your-music__sidebar">
+				<h4 class="title__sidebar">Your music</h4>
+				<hr>
+				<div class="songs link">
+					<img src="img/music.svg" alt="" class="img-link">
+					<a href="#">Songs</a>
+				</div>
+				<div class="activity link">
+					<img src="img/cd.svg" alt="" class="img-link">
+					<a href="#">Albums</a>
+				</div>
+				<div class="radio link">
+					<img src="img/contacts.svg" alt="" class="img-link">
+					<a href="#">Artists</a>
+				</div>
+			</div>
+
+			<div class="play-list__sidebar">
+				<h4 class="title__sidebar">Play list</h4>
+				<hr>
+				<div class="songs link">
+					<img src="img/featured.svg" alt="" class="img-link">
+					<a href="#">Starred</a>
+				</div>
+				<div class="activity link">
+					<img src="img/music.svg" alt="" class="img-link">
+					<a href="#">Uber</a>
+				</div>
+				<div class="radio link">
+					<img src="img/music.svg" alt="" class="img-link">
+					<a href="#">Chill</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="search">
+				<a href=""><img src="img/buttons.svg" alt="" class="buttons"></a>
+
+				<input type="text" class="search-input" placeholder="Search...">
+			</div>
+
+			<div class="album">
+				<img src="https://undergrundheros.ru/wp-content/uploads/2020/10/plyqhv4z8i4-e1602502289506.jpg" alt="" class="img-album">
+
+				<div class="type-albom">Альбом</div>
+				<div class="name-album">Человеко-часы</div>
+
+				<div class="author">Автор: <span>Дайте танк (!)</span></div>
+				<div class="date">2020 · 6 треков, 34 мин.</div>
+
+				<a href="" class="btn">Добавить</a>
+			</div>
+
+			<div class="music-wrapper">
+				<div class="music">
+					<audio id="audio" src="./audio/Дайте танк (!) - Профессионал.mp3">
+						Ваш браузер не поддерживает мп3
+					</audio>
+					<div id="controls">
+					    <div class="audio-track"><div class="time"></div></div>
+					    <button class="play"><img src="img/play.svg" alt="" style="width: 30px;"></button>
+					    <button class="pause"><img src="img/stop.svg" alt="" style="width: 30px;"></button>
+					    <button class="prev"><img src="img/left.svg" alt="" style="width: 30px;"></button>
+					    <button class="next"><img src="img/right.svg" alt="" style="width: 30px;"></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="songs">
+				<div class="number">#</div>
+				<div class="name">Название</div>
+			</div>
+
+			<div class="name-song">
+				<div class="number">1</div>
+				<div class="name">Дайте танк (!) - Профессионал</div>
+			</div>
+			<div class="name-song">
+				<div class="number">2</div>
+				<div class="name">Дайте танк (!) - Люди</div>
+			</div>
+			<div class="name-song">
+				<div class="number">3</div>
+				<div class="name">Дайте танк (!) - Альтернатива</div>
+			</div>
+			<div class="name-song">
+				<div class="number">4</div>
+				<div class="name">Дайте танк (!) - Профессионал</div>
+			</div>
+			<div class="name-song">
+				<div class="number">5</div>
+				<div class="name">Дайте танк (!) - Люди</div>
+			</div>
+			<div class="name-song">
+				<div class="number">6</div>
+				<div class="name">Дайте танк (!) - Альтернатива</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="audio.js" type="text/javascript"></script>
+</body>
+</html>

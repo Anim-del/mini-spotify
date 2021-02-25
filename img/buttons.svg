@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="42px" height="14px" viewbox="0 0 42 14" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="button_previousnext">
+    <g id="button_previousnext">
+      <path d="M0 0L7.21915 8L14 0" transform="matrix(1.1924881E-08 1 -1 1.1924881E-08 8 0)" id="Path-5" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1" />
+      <path d="M0 0L7.21915 8L14 0" transform="matrix(9.934766E-08 1 1 -9.934766E-08 34 0)" id="Path-5" fill="none" fill-rule="evenodd" stroke="#878787" stroke-width="1" />
+    </g>
+  </g>
+</svg>
